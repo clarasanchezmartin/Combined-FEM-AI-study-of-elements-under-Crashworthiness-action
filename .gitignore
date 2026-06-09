@@ -1,0 +1,29 @@
+# Caches de Python: se generan solos al ejecutar scripts.
+__pycache__/
+*.py[cod]
+
+# Archivo automatico de macOS.
+.DS_Store
+
+# Entornos virtuales locales.
+.venv/
+venv/
+
+# Configuracion local del editor.
+.vscode/
+
+# Copias locales de seguridad.
+backups/
+
+# Cache de Matplotlib.
+.matplotlib-cache/
+
+# Datos, modelos y resultados generados.
+datos/*
+modelos/*
+resultados/*
+
+# Mantener las carpetas vacias en Git.
+!datos/.gitkeep
+!modelos/.gitkeep
+!resultados/.gitkeep
