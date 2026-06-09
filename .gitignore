@@ -23,7 +23,4 @@ datos/*
 modelos/*
 resultados/*
 
-# Mantener las carpetas vacias en Git.
-!datos/.gitkeep
-!modelos/.gitkeep
-!resultados/.gitkeep
+!datos/simulaciones.csv
