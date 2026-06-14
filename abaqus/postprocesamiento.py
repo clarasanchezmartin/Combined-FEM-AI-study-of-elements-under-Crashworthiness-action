@@ -147,7 +147,7 @@ def PostProcessing(radio_cilindro, angulo_taper, num_agujeros, radio_agujero, fa
 
     # Crear un png con la grafica ALLIE
     plt.figure(figsize=(8, 6))
-    plt.plot(tiempo_energia, allie/1000000, 'g-')
+    plt.plot(tiempo_energia, np.abs(allie)/1000000, 'g-')
     plt.xlabel('Tiempo (s)')
     plt.ylabel('Energia (kJ)')
     plt.title('Energia Interna')
