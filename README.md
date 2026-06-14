@@ -2,6 +2,8 @@
 
 Trabajo de Fin de Máster centrado en la automatización de simulaciones mediante Abaqus y Python, y en el uso de los resultados obtenidos para entrenar un modelo predictivo de inteligencia artificial. El objetivo es analizar y optimizar el comportamiento de geometrías tubulares frente a cargas de impacto mediante criterios de *crashworthiness*.
 
+Nota: el archivo analisis.py se ha utilizado como script auxiliar para la generación de gráficas de los datos obtenidos en la simulación masiva de Abaqus
+
 ## Primera parte: generación de la base de datos con Abaqus
 
 Esta parte permite generar automáticamente las geometrías, ejecutar las simulaciones en Abaqus y postprocesar los resultados para construir la base de datos utilizada posteriormente por el modelo predictivo.
