@@ -73,7 +73,8 @@ def dibujar_pareto(puntos, pareto, columna_sea, columna_cfe, nombre_salida, titu
         linewidths=0.2,
         zorder=3,
     )
-    plt.xlabel(columna_sea)
+    etiqueta_sea = "SEA [kJ/kg]" if columna_sea == "SEA" else "pred_SEA [kJ/kg]"
+    plt.xlabel(etiqueta_sea)
     plt.ylabel(columna_cfe)
     plt.title(titulo)
     plt.legend()
@@ -128,3 +129,4 @@ def generar_pareto():
     )
 
     print("Pareto terminado. Resultados guardados en la carpeta resultados.")
+
